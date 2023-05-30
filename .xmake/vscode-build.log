@@ -1,5 +1,0 @@
-checking for Microsoft Visual Studio (x64) version ... 2022
-checking for LLVM Clang C/C++ Compiler (x64) version ... 16.0.0
-[ 25%]: cache compiling.debug chapter6\6.xQ3.cpp
-[ 50%]: linking.debug test.exe
-[100%]: build ok, spent 2.187s
