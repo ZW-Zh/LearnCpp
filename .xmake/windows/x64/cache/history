@@ -10,6 +10,7 @@
         "xmake -w",
         [[xmake l c:\Users\zzw19\.vscode\extensions\tboox.xmake-vscode-2.1.0\assets\explorer.lua]],
         "xmake check",
+        [[xmake l c:\Users\zzw19\.vscode\extensions\tboox.xmake-vscode-2.1.0\assets\explorer.lua]],
         [[xmake l c:\Users\zzw19\.vscode\extensions\tboox.xmake-vscode-2.1.0\assets\explorer.lua]]
     }
 }
