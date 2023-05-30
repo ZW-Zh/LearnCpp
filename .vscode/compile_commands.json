@@ -1,0 +1,6 @@
+[
+{
+  "directory": "c:\\Users\\zzw19\\Desktop\\c++",
+  "arguments": ["C:\\Program Files\\LLVM\\bin\\clang-cl.exe", "-c", "-Zi", "-FS", "-Fdbuild\\windows\\x64\\debug\\compile.test.pdb", "-Od", "/EHsc", "-Fobuild\\.objs\\test\\windows\\x64\\debug\\chapter6\\6.xQ2\\mian.cpp.obj", "chapter6\\6.xQ2\\mian.cpp"],
+  "file": "chapter6\\6.xQ2\\mian.cpp"
+}]
