@@ -4,8 +4,9 @@ bool passOrFail()
 {
     static int i{};
     i++;
-    if(i <= 3) return true;
-    else return false;
+    // if(i <= 3) return true;
+    // else return false;
+    return i <= 3;
 
 }
 
