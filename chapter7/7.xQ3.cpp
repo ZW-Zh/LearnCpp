@@ -1,8 +1,19 @@
 #include <iostream>
 
-int main()
-{
-    std::cout << "Let's play a game. I'm thinking of a number between 1 and 100. You have 7 tries to guess what it is.\n";
-    int answer{0};
-    int guess{0};
+bool passOrFail() {
+  static int i{};
+  i++;
+  // if(i <= 3) return true;
+  // else return false;
+  return i <= 3;
+}
+
+int main() {
+  std::cout << "User #1: " << (passOrFail() ? "Pass\n" : "Fail\n");
+  std::cout << "User #2: " << (passOrFail() ? "Pass\n" : "Fail\n");
+  std::cout << "User #3: " << (passOrFail() ? "Pass\n" : "Fail\n");
+  std::cout << "User #4: " << (passOrFail() ? "Pass\n" : "Fail\n");
+  std::cout << "User #5: " << (passOrFail() ? "Pass\n" : "Fail\n");
+
+  return 0;
 }
